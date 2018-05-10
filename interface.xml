@@ -212,6 +212,26 @@
             <category>settings</category>
             <gen_code>true</gen_code>
         </register>
+        <register>
+            <name>left motor coefficient to equlibrate (in per 1000)</name>
+            <c_name>left_motor_coeff</c_name>
+            <type>uint16</type>
+            <address>0x30</address>
+            <read>true</read>
+            <write>true</write>
+            <category>settings</category>
+            <gen_code>true</gen_code>
+        </register>
+        <register>
+            <name>right motor coefficient to equlibrate (in per 1000)</name>
+            <c_name>right_motor_coeff</c_name>
+            <type>uint16</type>
+            <address>0x32</address>
+            <read>true</read>
+            <write>true</write>
+            <category>settings</category>
+            <gen_code>true</gen_code>
+        </register>
     </registers>
     <registers location="command">
         <register>
